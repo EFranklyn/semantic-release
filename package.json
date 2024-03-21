@@ -1,6 +1,0 @@
-{
-  "name": "semantic-release",
-  "version": "0.0.1",
-  "description": "This project implements semantic release, a powerful tool for automating versioning and releases based on semantic versioning principles.",
-  "author": ""
-}
