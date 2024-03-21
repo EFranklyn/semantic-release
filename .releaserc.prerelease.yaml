@@ -16,7 +16,7 @@ branches:
   - name: intern/*
     prerelease: '${name.replace(/^intern\//g, "intern-")}'
   - name: beta/*
-    prerelease: '${name.replace(/^beta\//g, "beta-")}'
+    prerelease: true
   - name: next/*
     prerelease: '${name.replace(/^next\//g, "next-")}'
   - name: next-major/*
