@@ -1,3 +1,10 @@
+## [0.0.1](https://github.com/EFranklyn/semantic-release/compare/v0.0.0...v0.0.1) (2024-03-21)
+
+
+### Bug Fixes
+
+* Revert "New features ([#4](https://github.com/EFranklyn/semantic-release/issues/4))" ([#5](https://github.com/EFranklyn/semantic-release/issues/5)) ([afeb710](https://github.com/EFranklyn/semantic-release/commit/afeb710e05e7c381c3794b6d6ea46e81ea2e8c1a))
+
 ## [2.0.1](https://github.com/EFranklyn/semantic-release/compare/v2.0.0...v2.0.1) (2024-03-13)
 
 
