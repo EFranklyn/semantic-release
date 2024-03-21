@@ -15,4 +15,4 @@ branches:
   - name: hotfix/*
     prerelease: '${name.replace(/^hotfix\//g, "hotfix-")}'
   - name: intern/*
-    prerelease: true
+    prerelease: '${name.replace(/^intern\//g, "intern-")}'

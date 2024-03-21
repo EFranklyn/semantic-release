@@ -17,6 +17,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Set initial version
+        run: echo "0.0.1" > .VERSION
+        
       - name: Checkout code
         uses: actions/checkout@v3
 
