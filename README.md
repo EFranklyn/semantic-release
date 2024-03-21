@@ -16,5 +16,9 @@ In this project, we leverage the power of Continuous Integration (CI) and Contin
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+
+
+
+
 ---
 >**Thank you for visiting semantic-release! Remember, in a world of bugs, be the debugger! 🐛✨**
