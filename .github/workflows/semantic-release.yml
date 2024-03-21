@@ -9,6 +9,9 @@ on:
       - hotfix/*
       - release/*
       - intern/*
+      - beta/*
+      - next/*
+      - next-major/*
 
 jobs:
   build:
