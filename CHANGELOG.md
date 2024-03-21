@@ -1,3 +1,10 @@
+## [0.0.2](https://github.com/EFranklyn/semantic-release/compare/v0.0.1...v0.0.2) (2024-03-21)
+
+
+### Bug Fixes
+
+* test build ([#6](https://github.com/EFranklyn/semantic-release/issues/6)) ([3c69c37](https://github.com/EFranklyn/semantic-release/commit/3c69c37dd64c3aabd5c1e71da1d28fee8ee73c26))
+
 ## [0.0.1](https://github.com/EFranklyn/semantic-release/compare/v0.0.0...v0.0.1) (2024-03-21)
 
 
