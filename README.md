@@ -18,8 +18,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 
-
-
-
 ---
 >**Thank you for visiting semantic-release! Remember, in a world of bugs, be the debugger! 🐛✨**
