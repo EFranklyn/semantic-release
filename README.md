@@ -1,6 +1,6 @@
 # Welcome adventurous!
 
-This project implements semantic release, a powerful tool for automating versioning and releases based on semantic versioning principles.
+This project implements semantic release, a powerful tool for automating versioning and releases based on semantic versioning principles..
 
 ### What is semantic-release?
 [Semantic Release](https://semantic-release.gitbook.io/semantic-release/) is a tool that automates the versioning and release process based on the commit messages in your repository. It analyzes the commits made since the last release, determines the appropriate version bump (major, minor, or patch), generates release notes, and publishes the new version of your software automatically. This ensures consistency, eliminates human error in versioning, and facilitates smooth, predictable releases.
