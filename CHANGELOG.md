@@ -1,3 +1,10 @@
+## [0.0.3](https://github.com/EFranklyn/semantic-release/compare/v0.0.2...v0.0.3) (2024-09-03)
+
+
+### Bug Fixes
+
+* test first line ([#7](https://github.com/EFranklyn/semantic-release/issues/7)) ([a9c9492](https://github.com/EFranklyn/semantic-release/commit/a9c9492d2959d4917c46613388a2c3404d485c92))
+
 ## [0.0.2](https://github.com/EFranklyn/semantic-release/compare/v0.0.1...v0.0.2) (2024-03-21)
 
 
