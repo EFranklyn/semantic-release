@@ -23,6 +23,6 @@ jobs:
 
       - name: Executar análise com ReviewDog
         env:
-          GITHUB_TOKEN: ${{ secrets.ELEVATED_GITHUB_TOKEN }}
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.ELEVATED_GITHUB_TOKEN }}
         run: |
           npx eslint . | reviewdog -f=eslint -reporter=github-pr-review
