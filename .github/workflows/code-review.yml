@@ -1,4 +1,4 @@
-name: CodeGPT PR Review
+name: AI PR Review
 
 on:
   pull_request:
@@ -12,8 +12,8 @@ jobs:
       - name: Checkout código
         uses: actions/checkout@v4
 
-      - name: CodeGPT Review
-        uses: anc95/code-review-gpt@v1
-        with:
-          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
-          github-token: ${{ secrets.ELEVATED_GITHUB_TOKEN }}
+      - name: PR Review com AI
+        uses: CodiumAI/pr-agent@v1.7
+        env:
+          GITHUB_TOKEN: ${{ secrets.ELEVATED_GITHUB_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
