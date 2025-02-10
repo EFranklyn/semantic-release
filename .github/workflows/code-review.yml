@@ -17,6 +17,9 @@ jobs:
         with:
           node-version: 18
 
+      - name: Instalar dependências
+        run: npm install # Instala todas as dependências necessárias
+
       - name: Instalar ReviewDog
         run: |
           curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/master/install.sh | sh -s -- -b /usr/local/bin
