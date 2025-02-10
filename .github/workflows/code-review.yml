@@ -12,8 +12,17 @@ jobs:
       - name: Checkout código
         uses: actions/checkout@v4
 
-      - name: PR Review com AI
-        uses: CodiumAI/pr-agent@v1.7
+      - name: Configurar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Instalar ReviewDog
+        run: |
+          curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/master/install.sh | sh -s -- -b /usr/local/bin
+
+      - name: Executar análise com ReviewDog
         env:
           GITHUB_TOKEN: ${{ secrets.ELEVATED_GITHUB_TOKEN }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          npx eslint . | reviewdog -f=eslint -reporter=github-pr-review
