@@ -16,4 +16,4 @@ jobs:
         uses: anc95/code-review-gpt@v1
         with:
           openai-api-key: ${{ secrets.OPENAI_API_KEY }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.ELEVATED_GITHUB_TOKEN }}
